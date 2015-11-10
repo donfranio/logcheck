@@ -1,0 +1,8 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: (Connection|Disconnected), ip=\[[.:[:alnum:]]+\](, time=[[:digit:]]+)?(, starttls=[[:digit:]]+)?$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: LOGIN, user=[-_.@[:alnum:]]+, ip=\[[.:[:alnum:]]+\], port=\[[0-9]+\], protocol=IMAP$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: (LOGOUT|TIMEOUT|DISCONNECTED)(, user=[-_.@[:alnum:]]+)?, ip=\[[.:[:alnum:]]+\](, headers=[0-9]+)?(, body=[0-9]+)?, rcvd=[0-9]+, sent=[0-9]+(, time=[0-9]+)?(, starttls=[01])?$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: couriertls: read: Connection timed out$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: couriertls: accept: Connection (reset by peer|timed out)$
+# Eines von mir, FS, 2015-07-14
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: couriertls: read: No route to host$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: couriertls: connect: error:1408A0C1:SSL routines:SSL3_GET_CLIENT_HELLO:no shared cipher$

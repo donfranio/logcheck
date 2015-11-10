@@ -1,0 +1,1 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ chronyd\[[0-9]{1,5}\]: NTP packet received from unauthorised host [.0-9]{7,15} port [[:digit:]]{1,5}$
