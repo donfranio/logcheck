@@ -6,5 +6,5 @@
 # Eines von mir, FS, 2015-07-14
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: couriertls: read: No route to host$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: couriertls: connect: error:1408A0C1:SSL routines:SSL3_GET_CLIENT_HELLO:no shared cipher$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: Error in the pull function.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: Error in the (pull|push) function.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: The TLS connection was non-properly terminated.
