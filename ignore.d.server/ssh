@@ -51,3 +51,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Received disconnect from [:.[:xdigit:]]+( port [[:xdigit:]]+:)? [[:digit:]]+: .* \[preauth\]$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: no matching cipher found: client [^[:space:]]+ server [^[:space:]]+ \[preauth\]$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: PAM service\(sshd\) ignoring max retries; 6 > 3$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Read from socket failed: Connection reset by peer \[preauth\]$
