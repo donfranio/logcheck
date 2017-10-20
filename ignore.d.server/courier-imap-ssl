@@ -9,3 +9,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: Error in the (pull|push) function.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: The TLS connection was non-properly terminated.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: /etc/courier/shared/index: Permission denied$ 
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: Maximum connection limit reached for [:[:xdigit:].]+$
