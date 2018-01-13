@@ -46,3 +46,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: Sending config line '((subnet|netmask|option routers|option subnet-mask) [.[:digit:]]{7,15}|(default|max|min)-lease-time [[:digit:]]+|[[:space:]]|\{#012|\}#012|;#012)+'$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: Sending config line 'pool (range [.[:digit:]]{7,15} [.[:digit:]]+|(default|min|max)-lease-time [[:digit:]]+|failover peer "[-._[:alnum:]]+"|deny dynamic bootp clients|[[:space:]]|\{#012|\}#012|;#012)+'$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: bind update on [.[:digit:]]{7,15} got ack from dhcp-failover: xid mismatch\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: reuse_lease: lease age [[:digit:]]+ \(secs\) under 25% threshold, reply with unaltered, existing lease for [.[:digit:]]{7,15}$
