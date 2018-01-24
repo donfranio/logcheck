@@ -52,4 +52,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: PAM service\(sshd\) ignoring max retries; [[:digit:]]+ > 3$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Read from socket failed: Connection reset by peer \[preauth\]$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: no hostkey alg \[preauth\]$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [:.[:xdigit:]]+ port [[:digit:]]{1,5}: no matching host key type found. Their offer: [-[:alnum:]]+ \[preauth\]$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [:.[:xdigit:]]+ port [[:digit:]]{1,5}: no matching (host key type|key exchange method) found. Their offer: [-[:alnum:]]+ \[preauth\]$
