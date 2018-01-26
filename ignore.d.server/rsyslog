@@ -3,3 +3,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="http://www.rsyslog.com"\] start$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="http://www.rsyslog.com"\] exiting on signal [0-9]+.$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ (rsyslogd|liblogging-stdlog): \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="http://www.rsyslog.com"\] rsyslogd was HUPed$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd: \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="http://www.rsyslog.com"\] rsyslogd was HUPed$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd-2007: action 'action 17' suspended, next retry is \w{3} \w{3} [ :0-9]{16} \[try http://www.rsyslog.com/e/2007 \]$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ rsyslogd(-2359|0): action 'action 17' resumed \(module 'builtin:ompipe'\) \[try http://www.rsyslog.com/e/(2359|0) \]$
+
