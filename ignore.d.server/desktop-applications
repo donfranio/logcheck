@@ -1,1 +1,1 @@
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (iceweasel.desktop|gnome-session|colord|org.gnome.evolution.dataserver.Sources3|firefox-esr.desktop|rtkit-daemon|gdm-Xorg-:1)(\[[[:digit:]]+\])?: .*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (iceweasel.desktop|gnome-session|colord|org.gnome.evolution.dataserver.Sources3|evolution-alarm|firefox-esr.desktop|rtkit-daemon|gdm-Xorg-:1)(\[[[:digit:]]+\])?: .*$
