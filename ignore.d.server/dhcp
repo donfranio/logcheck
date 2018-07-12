@@ -6,7 +6,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: (BOOTREQUEST|DHCPDISCOVER) from [:[:alnum:]]+ (\([\(\):._[:alnum:]-]+\) )?via [._[:alnum:]-]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: BOOTREPLY (for|on) [.0-9]{7,15} to [:[:alnum:]]+ (\([:._[:alnum:]-]+\) )?via [._[:alnum:]-]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: DHCPOFFER on [.0-9]{7,15} to [:[:alnum:]]+ (\([\(\)._[:alnum:]-]+\) )?via [._[:alnum:]-]+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: DHCPREQUEST for [.0-9]{7,15} (\([.0-9]{7,15}\) )?from [:._[:alnum:]-]+ (\([\(\)._[:alnum:]-]+\) )?via [._[:alnum:]-]+(: unknown lease [.0-9]{7,15}\.)?$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: DHCPREQUEST for [.0-9]{7,15} (\([.0-9]{7,15}\) )?from [:._[:alnum:]-]+ (\([\(\)._[:alnum:]-]+\) )?(\(\) )?via [._[:alnum:]-]+(: unknown lease [.0-9]{7,15}\.)?$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: DHCPACK on [.0-9]{7,15} to [:[:alnum:]]+ (\([\(\)._[:alnum:]-]+\) )?via [._[:alnum:]-]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: DHCP(NAK|RELEASE|INFORM) (on|from) ([.0-9]{7,15}|[:[:alnum:].]+)$
 #Added for dhcp 3
@@ -47,3 +47,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: Sending config line 'pool (range [.[:digit:]]{7,15} [.[:digit:]]+|(default|min|max)-lease-time [[:digit:]]+|failover peer "[-._[:alnum:]]+"|deny dynamic bootp clients|[[:space:]]|\{#012|\}#012|;#012)+'$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: bind update on [.[:digit:]]{7,15} got ack from dhcp-failover: xid mismatch\.$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: reuse_lease: lease age [[:digit:]]+ \(secs\) under 25% threshold, reply with unaltered, existing lease for [.[:digit:]]{7,15}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dhcpd[[[:digit:]]+]: Unable to build name for fwd update: .local.dom empty label$
