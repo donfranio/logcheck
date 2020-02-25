@@ -6,6 +6,7 @@
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: Time has been changed$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: [-_[:alnum:]]+.timer: Adding ([0-9]+h )?([0-9]{1,2}min )?[0-9]{1,2}\.[0-9]{6}s random time\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd-logind\[[0-9]+\]: New session [[:alnum:]]+ of user [^[:space:]]+\.$
+^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd-logind\[[0-9]+\]: Session [[:alnum:]]+ logged out\. Waiting for processes to exit\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd-logind\[[0-9]+\]: Removed session [[:alnum:]]+\.$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd: pam_unix\(systemd-user:session\): session opened for user [^[:space:]]+ by \(uid=0\)$
 ^[[:alpha:]]{3} [ :[:digit:]]{11} [._[:alnum:]\-]+ systemd\[[0-9]+\]: (Listening on|Closed) GnuPG cryptographic agent (and passphrase cache( \(restricted\))?|\(ssh-agent emulation\)|\(access for web browsers\))\.$
