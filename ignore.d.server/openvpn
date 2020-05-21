@@ -23,7 +23,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (openvpn|ovpn-[._[:alnum:]-]+)\[[[:digit:]]+\]: TLS-Auth MTU parms \[ L:[[:digit:]]+ D:[[:digit:]]+ EF:[[:digit:]]+ EB:[[:digit:]]+ ET:[[:digit:]]+ EL:[[:digit:]]+ \]$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (openvpn|ovpn-[._[:alnum:]-]+)\[[[:digit:]]+\]: TUN/TAP device [-._[:alnum:]]+ opened$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (openvpn|ovpn-[._[:alnum:]-]+)\[[[:digit:]]+\]: UDPv4 link (local( \(bound\))?|remote): (\[undef\]|[._[:alnum:]-]+)(:[[:digit:]]+)?$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (openvpn|ovpn-[._[:alnum:]-]+)\[[[:digit:]]+\]: VERIFY OK: nsCertType=SERVER$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (openvpn|ovpn-[._[:alnum:]-]+)\[[[:digit:]]+\]:( ([-_.@[:alnum:]]+/)?[.[:digit:]]{7,15}:[[:digit:]]{2,5})? (VERIFY OK|peer info): 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (openvpn|ovpn-[._[:alnum:]-]+)\[[[:digit:]]+\]: [GU]ID set to [-._[:alnum:]]+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (openvpn|ovpn-[._[:alnum:]-]+)\[[[:digit:]]+\]: read UDPv4 \[ECONNREFUSED\]: Connection refused \(code=111\)$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (openvpn|ovpn-[._[:alnum:]-]+)\[[[:digit:]]+\]: read UDPv4 \[ECONNREFUSED\|ECONNREFUSED\]: Connection refused \(code=111\)$
