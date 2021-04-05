@@ -11,3 +11,5 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: /etc/courier/shared/index: Permission denied$ 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl: Maximum connection limit reached for [:[:xdigit:].]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl:( ip=\[[.:[:alnum:]]+\],)? An unexpected TLS packet was received.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl:( ip=\[[.:[:alnum:]]+\],)? No supported cipher suites have been found\.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ imapd-ssl:( ip=\[[.:[:alnum:]]+\],)? A packet with illegal or unsupported version was received.$
